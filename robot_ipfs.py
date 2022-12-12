@@ -24,7 +24,7 @@ API_KEY = os.environ.get("API_KEY")
 PINNING_URL = "https://api.pinata.cloud/pinning/pinFileToIPFS"
 
 PAYLOAD = {'pinataOptions': '{"cidVersion": 1}',
-    'pinataMetadata': '{"name": "CertificateMetadata", "keyvalues": {"company": "NFTificate"}}'}
+    'pinataMetadata': '{"name": "CertificateMetadata", "keyvalues": {"company": "Company"}}'}
 
 HEADERS = {
     'Authorization': f'Bearer {API_KEY}'
